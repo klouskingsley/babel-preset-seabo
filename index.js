@@ -9,7 +9,6 @@ module.exports = function (context, options = {}) {
       [
         require('@babel/preset-env'),
         {
-          "modules": false,
           "targets": {
               "browsers": browsers
           }
