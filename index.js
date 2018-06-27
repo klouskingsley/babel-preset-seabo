@@ -20,9 +20,7 @@ module.exports = function (context, options = {}) {
       require('@babel/plugin-transform-runtime'),
       require('@babel/plugin-syntax-dynamic-import'),
       [require('@babel/plugin-proposal-decorators'), { "legacy": true }],
-      [require('@babel/plugin-proposal-class-properties'), { loose: true }],
-      [require('babel-plugin-import'), { "libraryName": "antd"}, "ant"],
-      [require('babel-plugin-import'), { "libraryName": "antd-mobile"}, "ant-mobile"]
+      [require('@babel/plugin-proposal-class-properties'), { loose: true }]
     ]
   }
 }
