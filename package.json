@@ -1,15 +1,12 @@
 {
   "name": "babel-preset-seabo",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "babel preset for seabo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@gitee.com:xharry/babel-preset-seabo.git"
-  },
+  "repository": "klouskingsley/babel-preset-seabo",
   "keywords": [
     "babel",
     "preset",
